@@ -1,0 +1,13 @@
+/*=======================================*\
+ * ## Universal Classes
+\*=======================================*/
+.clearfix {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.width-setter {
+	max-width: 900px;
+	margin: 0 auto;
+}

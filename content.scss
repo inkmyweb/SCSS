@@ -1,0 +1,21 @@
+/*=======================================*\
+ * ## Content
+\*=======================================*/
+#content {
+	
+	&:after {
+		display: block;
+		content: '';
+		clear: both;
+	}
+
+	#primary {
+		float: left;
+		width: 70%;
+	}
+
+	#secondary {
+		float: left;
+		width: 30%;
+	}
+}
