@@ -1,0 +1,28 @@
+.main-navigation {
+	ul, ol {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	a {
+		color: #333;
+		display: block;
+		padding: 8px 15px;
+	}
+
+	ul {}
+
+	ul li {
+		position: relative;
+	}
+
+	ul ul {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 180px;
+	}
+
+	ul ul li {}
+}
