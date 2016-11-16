@@ -11,10 +11,17 @@
 		padding: 8px 15px;
 	}
 
-	ul {}
+	ul {
+		&:after {
+			display: block;
+			content: '';
+			clear: both;
+		}
+	}
 
 	ul li {
 		position: relative;
+		float: left;
 	}
 
 	ul ul {
@@ -24,5 +31,7 @@
 		width: 180px;
 	}
 
-	ul ul li {}
+	ul ul li {
+		float: none;
+	}
 }
