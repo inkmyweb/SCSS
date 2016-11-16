@@ -1,3 +1,10 @@
+/**
+ * Although the navigation menu is a part
+ * of 'header.php', the CSS for menu can
+ * grow very big in size. Hence a dedicated
+ * stylesheet for navigation menu is advised.
+ */
+
 .main-navigation {
 	ul, ol {
 		margin: 0;
