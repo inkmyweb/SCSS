@@ -2,7 +2,6 @@
  * ## Content 
 \*=======================================*/
 #content {
-	
 	&:after {
 		display: block;
 		content: '';
@@ -28,7 +27,6 @@
  * ## Content Styling
 \*=======================================*/
 #content {
-
 	.entry-header {}
 
 	.entry-title {
@@ -42,4 +40,27 @@
 	.entry-content {}
 
 	.entry-footer {}
+}
+
+
+
+
+
+/*=======================================*\
+ * Sidebar
+\*=======================================*/
+#content {
+	.widget {
+		a {}
+
+		& ul, ol {
+			margin-left: 0;
+			padding-left: 0;
+			list-style-type: none;
+		}
+	}
+
+	.widget-title {
+
+	}
 }
